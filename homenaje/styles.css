@@ -1,0 +1,38 @@
+img{
+    display: block;
+}
+
+#image{
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+#img-div, #image{
+    display: box;
+    background-color: white;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+    background-color: gray;
+}
+em{
+    font-style: italic;
+    padding: 20px;
+    margin: 5%;
+}
+#title{
+    text-align: center;
+}
+h4{
+    font-weight: normal;
+    text-align: center;
+}
+#tribute-info{
+    text-align: justify;
+    padding: 10px;
+    display: absolute;
+    margin: 5%;
+}
