@@ -58,9 +58,10 @@ a{
     color: rgb(93, 127, 251);
     display: block;
     background-color:rgb(28, 28, 28);
-    padding: auto;
+    padding: 1rem;
     width: 20%;
     margin: auto;
+    border-radius: 10%;
 }
 a:hover{
     text-decoration: underline;
