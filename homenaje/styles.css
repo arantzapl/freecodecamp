@@ -1,38 +1,67 @@
 img{
     display: block;
-}
-
-#image{
+    margin: auto;
+    background-color: rgba(0, 161, 59, 0.674);
+    padding: 1.5rem;
     max-width: 100%;
-    height: auto;
-    background-color: white;
-    padding: 20px;
 }
-
-#img-div, #image{
-    display: box;
-    background-color: white;
+#image{
+    display: block;
+    box-sizing: content-box;
+    box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.5);
+}
+#img-caption{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+    text-decoration-line: underline;
+    font-style: oblique;
 }
 
 body{
     font-family: Verdana, sans-serif;
-    background-color: gray;
+    color: rgb(28, 28, 28);
+    background: repeating-linear-gradient(45deg, rgb(2, 154, 2) 25%, rgb(106, 246, 106) 50%, rgb(106, 246, 106) 75%, rgb(2, 154, 2) 100%);
+    font-size: 1.5rem;
 }
 em{
     font-style: italic;
-    padding: 20px;
-    margin: 5%;
+    display: grid;
+    place-content: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 #title{
     text-align: center;
+    text-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.471);
 }
 h4{
     font-weight: normal;
     text-align: center;
+    text-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.471);
+    text-decoration: underline;
 }
 #tribute-info{
     text-align: justify;
-    padding: 10px;
-    display: absolute;
-    margin: 5%;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    column-count: 3;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(93, 127, 251);
+    display: block;
+    background-color:rgb(28, 28, 28);
+    padding: 1rem;
+    width: 20%;
+    height: 10%;
+    margin: auto;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
 }
