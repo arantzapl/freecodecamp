@@ -28,8 +28,8 @@ body{
 }
 em{
     font-style: italic;
-    display: grid;
-    place-content: center;
+    display: block;
+    text-align: center;
     font-size: 2rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -56,7 +56,8 @@ a{
     text-decoration: none;
     text-align: center;
     color: rgb(93, 127, 251);
-    display: block;
+    display: grid;
+    place-content: center;
     background-color:rgb(28, 28, 28);
     padding: 1rem;
     width: 20%;
