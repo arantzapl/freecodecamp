@@ -58,7 +58,7 @@ a{
     color: rgb(93, 127, 251);
     display: block;
     background-color:rgb(28, 28, 28);
-    padding: 1rem;
+    padding: auto;
     width: 20%;
     margin: auto;
 }
