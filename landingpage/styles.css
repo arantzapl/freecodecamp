@@ -1,0 +1,136 @@
+:root {
+    --navbar-color: lightblue;
+    --footer-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
+    position: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+.nav-item {
+    list-style-type: none;
+    padding-left: 1rem;
+    position: flex;
+    font-size: 20px;
+}
+
+.principal, .contacto{
+    max-width: 100%;
+    max-height: 100%;
+    right: 0;
+    margin: 1rem;
+}
+
+.navbar{
+    background-color: var(--navbar-color);
+    padding: 0.5rem 0.5rem;
+    margin: 1.5rem;
+    border-radius: 2rem;
+}
+
+.pie{
+    background-color: var(--footer-color);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.contacto{
+    background-color: var(--footer-color);
+    padding: 0.5rem 0.5rem;
+    border-radius: 2rem;
+}
+
+.combate{
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0.5rem 0.5rem;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 1rem;
+    max-width: 90%;
+}
+
+#pie{
+    display: flex;
+    justify-content: baseline;
+    align-items: end;
+    margin: 0.5rem;
+}
+
+#iconos{
+    display: absolute;
+    padding: 0.5rem;
+    float: right;
+    text-decoration: none;
+}
+
+#iconos:hover{
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+    border-radius: 7px;
+}
+
+.card-body{
+    height: 100%;
+}
+
+.productos a:hover{
+    background-color: white;
+    color: black;
+    border: black 3px solid;
+}
+
+@media screen and (max-width: 768px){
+    .combate{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1024px){    
+    .combate{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1920){    
+    .combate{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
