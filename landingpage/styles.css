@@ -47,8 +47,13 @@ hr{
 .navbar{
     background-color: var(--navbar-color);
     padding: 0.5rem 0.5rem;
-    margin: 1.5rem;
+    margin: 1rem;
     border-radius: 2rem;
+    z-index: 1;
+}
+
+.video{
+    text-align: center;
 }
 
 .pie{
@@ -61,6 +66,16 @@ hr{
     background-color: var(--footer-color);
     padding: 0.5rem 0.5rem;
     border-radius: 2rem;
+}
+
+.logo{
+    border-radius: 1.5rem;
+    width: 20%;
+    height: 20%;
+    margin: 0.5rem;
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
 }
 
 .combate{

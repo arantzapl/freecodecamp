@@ -10,20 +10,25 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <title>Taekwondo</title>
+
 </head>
 
 <body class="cuerpo">
-  <nav class="navbar">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Menú principal</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <header id="header">
+    <nav class="navbar" id="nav-bar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menú principal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#informacion">Información</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="video">Vídeo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#productos">Productos</a>
@@ -32,10 +37,11 @@
               <a class="nav-link" href="#contacto" role="button">Contacto</a>
             </li>
           </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
+    </nav>
+    <img src="imagenes/logo.jpg" class="logo" alt="logo" id="header-img">
+  </header>
   <main class="principal">
     <h1>Taekwondo</h1>
     <hr>
@@ -55,6 +61,15 @@
         puño está permitido en el protector del tronco o peto de taekwondo, y las patadas se permiten desde la
         cadera para arriba, incluida la cara.
       </p>
+    </nav>
+    <hr>
+    <h2>Vídeo de combate</h2>
+    <hr>
+    <nav class="video" id="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/aMO6sbhnC_o" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
     </nav>
     <hr>
     <h2>Productos</h2>
@@ -79,8 +94,8 @@
         <div class="card-body">
           <img src="imagenes/golpeador.jpg" class="card-img-top" alt="Golpeador entrenamiento">
           <h5 class="card-title">Golpeador para entrenamiento<h5>
-          <p class="card-text">15,99€</p>
-          <a href="#" class="btn btn-link">Comprar</a>
+              <p class="card-text">15,99€</p>
+              <a href="#" class="btn btn-link">Comprar</a>
         </div>
       </div>
       <div class="card">
@@ -105,4 +120,5 @@
     </nav>
   </main>
 </body>
+
 </html>
