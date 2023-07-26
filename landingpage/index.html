@@ -12,8 +12,7 @@
   <title>Taekwondo</title>
 </head>
 
-<body>
-  <h1>Taekwondo</h1>
+<body class="cuerpo">
   <nav class="navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Menú principal</a>
@@ -38,10 +37,14 @@
   </nav>
 
   <main class="principal">
+    <h1>Taekwondo</h1>
+    <hr>
     <img src="imagenes/combate.jpg" class="combate" alt="combate_taekwondo">
+    <hr>
     <h2>¿Qué es el Taekwondo?</h2>
+    <hr>
     <nav class="informacion" id="informacion">
-      <p>El Taekwondo es un arte marcial coreano y un deporte olímpico en el que predominan las técnicas de
+      <p class="taek">El Taekwondo es un arte marcial coreano y un deporte olímpico en el que predominan las técnicas de
         pierna, con patadas rápidas y ágiles. Su nombre se divide en tres palabras: "TAE", que significa pie o
         patada, "KWON", puño y por último "DO", camino. Su filosofía se basa en cinco principios: cortesía,
         integridad, perseverancia, autocontrol y espíritu indomable.
@@ -53,41 +56,43 @@
         cadera para arriba, incluida la cara.
       </p>
     </nav>
+    <hr>
     <h2>Productos</h2>
     <nav class="productos" id="productos">
       <div class="card">
-        <img src="imagenes/dobokadulto.jpg" class="card-img-top" alt="Equipación Dobok Taekwondo para adulto">
         <div class="card-body">
-          <p class="card-title">Dobok para adulto</p>
+          <img src="imagenes/dobokadulto.jpg" class="card-img-top" alt="Equipación Dobok Taekwondo para adulto">
+          <h5 class="card-title">Dobok para adulto</h5>
           <p class="card-text">40,99€</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <a href="#" class="btn btn-link">Comprar</a>
         </div>
       </div>
       <div class="card">
-        <img src="imagenes/doboknino.jpg" class="card-img-top" alt="Equipación Dobok Taekwondo para niños">
         <div class="card-body">
-          <p class="card-title">Dobok para adulto</p>
+          <img src="imagenes/doboknino.jpg" class="card-img-top" alt="Equipación Dobok Taekwondo para niños">
+          <h5 class="card-title">Dobok para adulto</h5>
           <p class="card-text">20,99€</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <a href="#" class="btn btn-link">Comprar</a>
         </div>
       </div>
-      <div class="card">
-        <img src="imagenes/golpeador.jpg" class="card-img-top" alt="Golpeador entrenamiento">
+      <div class="card min-vw-25 min-vh-25">
         <div class="card-body">
-          <p class="card-title">Golpeador para entrenamiento</p>
+          <img src="imagenes/golpeador.jpg" class="card-img-top" alt="Golpeador entrenamiento">
+          <h5 class="card-title">Golpeador para entrenamiento<h5>
           <p class="card-text">15,99€</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <a href="#" class="btn btn-link">Comprar</a>
         </div>
       </div>
       <div class="card">
-        <img src="imagenes/cinturones.jpg" class="card-img-top" alt="Equipación Dobok Taekwondo para niños">
         <div class="card-body">
-          <p class="card-title">Cinturones para diferentes niveles</p>
+          <img src="imagenes/cinturones.jpg" class="card-img-top" alt="Equipación Dobok Taekwondo para niños">
+          <h5 class="card-title">Cinturones para diferentes niveles</h5>
           <p class="card-text">4,99€</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <a href="#" class="btn btn-link">Comprar</a>
         </div>
       </div>
     </nav>
+    <hr>
     <h2>Contacto</h2>
     <nav class="contacto" id="contacto">
       <a href="https://www.facebook.com" id="iconos"><i class="bi bi-facebook"></i></a>
@@ -95,6 +100,8 @@
       <a href="https://www.twitter.com" id="iconos"><i class="bi bi-twitter"></i></a>
       <a href="https://www.youtube.com" id="iconos"><i class="bi bi-youtube"></i></a>
       <p class="pie" id="pie">&copy; Arantza Pérez 2023</p>
+
+      <!-- Poner un formulario de contacto -->
     </nav>
   </main>
 </body>
