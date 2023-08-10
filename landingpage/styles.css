@@ -5,7 +5,7 @@
 }
 
 .cuerpo{
-    background: linear-gradient(135deg, rgba(4, 4, 247, 0.54), rgba(55, 202, 255, 0.681));
+    background: linear-gradient(135deg, rgba(4, 4, 247, 0.541), rgba(55, 202, 255, 0.681));
 }
 
 h1 {
@@ -17,6 +17,12 @@ h1 {
 }
 
 .principal h2{
+    text-align: center;
+    padding: 1rem;
+    color: rgb(60, 0, 255);
+}
+
+.contacto h2{
     text-align: center;
     padding: 1rem;
     color: rgb(60, 0, 255);
@@ -67,9 +73,9 @@ iframe{
     font-size: 1rem;
 }
 
-.contacto{
+.contacto, .productos, .video, .informacion{
     background-color: var(--footer-color);
-    padding: 0.5rem 0.5rem;
+    padding: 1rem;
     border-radius: 2rem;
 }
 
@@ -101,7 +107,7 @@ iframe{
 }
 
 .card-body{
-    background-color: var(--navbar-color);
+    background-color: rgba(4, 4, 247, 0.541);
     border-color: black 2px solid;
 }
 
@@ -129,11 +135,32 @@ iframe{
     border-radius: 4px;
 }
 
+#top a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    border: white 2px dotted;
+}
+
+#top a:hover{
+    background-color: white;
+    color: black;
+    border: black 2px dotted;
+    border-radius: 5px;
+}
+
 #iconos:hover{
     background-color: white;
     color: black;
     border: black 1px solid;
     border-radius: 7px;
+}
+
+.productos a{
+    color: rgb(0, 0, 90);
+    text-decoration: none;
 }
 
 .productos a:hover{
