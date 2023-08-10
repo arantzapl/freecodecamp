@@ -89,12 +89,6 @@ iframe{
     padding: 0.5rem;
 }
 
-.combate{
-    display: block;
-    width: 80%;
-    height: 80%;
-    margin: auto;
-}
 
 .productos{
     display: grid;
@@ -106,6 +100,12 @@ iframe{
     padding: 0.5rem;
 }
 
+.combate{
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
 .card-body{
     background-color: rgba(4, 4, 247, 0.541);
     border-color: black 2px solid;
